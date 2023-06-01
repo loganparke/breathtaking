@@ -2,4 +2,4 @@ function SmallDetails() {
   return <div>SmallDetails page</div>;
 }
 
-export { SmallDetails };
+export default SmallDetails;

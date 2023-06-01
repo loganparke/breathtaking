@@ -9,8 +9,7 @@ import Tables from "../pages/tables/Tables";
 import TableTop from "../pages/tableTop/TableTop";
 import TermsCons from "../pages/termsCons/TermsCons";
 
-// Header path was giving error with capitol H. still uses same path with lower case h.
-import Header from "./header/header";
+import Header from "./header/Header";
 import Footer from "./footer/Footer";
 
 export {

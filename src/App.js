@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {
+  Header,
   Contact,
   Home,
   LargeDetails,
@@ -10,6 +11,7 @@ import {
   Tables,
   TableTop,
   TermsCons,
+  Footer,
 } from "./components";
 
 import "./App.css";

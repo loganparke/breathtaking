@@ -2,4 +2,4 @@ function Tables() {
   return <div>Tables page</div>;
 }
 
-export { Tables };
+export default Tables;

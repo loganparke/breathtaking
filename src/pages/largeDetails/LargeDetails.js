@@ -2,4 +2,4 @@ function LargeDetails() {
   return <div>LargeDetails</div>;
 }
 
-export { LargeDetails };
+export default LargeDetails;
