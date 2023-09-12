@@ -1,13 +1,12 @@
 import Contact from "../pages/contact/Contact";
 import Home from "../pages/home/Home";
-import LargeDetails from "../pages/largeDetails/LargeDetails";
+import ChalkBoards from "../pages/chalkBoards/ChalkBoards";
 import Linen from "../pages/linen/Linen";
-import PoleTents from "../pages/poleTents/PoleTents";
+import Floral from "../pages/floral/Floral";
 import Seating from "../pages/seating/Seating";
-import SmallDetails from "../pages/smallDetails/SmallDetails";
+import Lighting from "../pages/lighting/Lighting";
 import Tables from "../pages/tables/Tables";
-import TableTop from "../pages/tableTop/TableTop";
-import TermsCons from "../pages/termsCons/TermsCons";
+import BackDrops from "../pages/backDrops/backDrops";
 
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
@@ -15,14 +14,13 @@ import Footer from "./footer/Footer";
 export {
   Contact,
   Home,
-  LargeDetails,
+  ChalkBoards,
   Linen,
-  PoleTents,
+  Floral,
   Seating,
-  SmallDetails,
+  Lighting,
   Tables,
-  TableTop,
-  TermsCons,
+  BackDrops,
   Header,
   Footer,
 };

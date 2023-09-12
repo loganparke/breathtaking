@@ -1,0 +1,65 @@
+.heroImage {
+  width: 100vw;
+  max-height: 600px;
+  height: 600px;
+  object-fit: cover;
+  background-image: url("../../assets/IMG_3047.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+}
+.heroImage h1 {
+  font-weight: 800;
+  margin: auto;
+  font-size: 70px;
+
+  text-align: center;
+  text-shadow: 0px 0px 25px rgba(0, 0, 0, 1) !important;
+}
+.heroImage h1 span {
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 0px 0px 25px rgba(0, 0, 0, 1) !important;
+}
+.homeItems {
+  padding: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+.homeLink h3 {
+  width: 400px;
+  height: 250px;
+  margin: 30px;
+  font-size: 60px;
+  text-shadow: 0px 0px 25px rgba(0, 0, 0, 1) !important;
+  transition: all 0.4s ease;
+}
+
+.homeLink h3:hover {
+  scale: 1.1;
+  transition: all 0.4s ease;
+}
+
+#tableTop {
+  background-image: url("../../assets/thumbnail_IMG_3542.jpg");
+}
+#seating {
+  background-image: url("../../assets/IMG_2506.jpg");
+}
+#smallDetails {
+  background-image: url("../../assets/thumbnail_IMG_3371.jpg");
+}
+#largeDetails {
+  background-image: url("../../assets/thumbnail_IMG_3508.jpg");
+}
+#linen {
+  background-image: url("../../assets/thumbnail_IMG_3375.jpg");
+}
+#poleTents {
+}

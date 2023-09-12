@@ -1,40 +1,39 @@
 import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import textlogo from "../../assets/textLogo.svg";
 
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className="navWrap">
+        <img id="textLogo" src={textlogo} />
         <h3>
-          <Link to="/make-it-breathtaking">Home</Link>
+          <Link to="/">Home</Link>
         </h3>
         <h3>
-          <Link to="/make-it-breathtaking/tables">Tables</Link>
+          <Link to="/tables">Tables</Link>
         </h3>
         <h3>
-          <Link to="/make-it-breathtaking/tableTop">Table Top</Link>
+          <Link to="/seating">Seating</Link>
         </h3>
         <h3>
-          <Link to="/make-it-breathtaking/seating">Seating</Link>
+          <Link to="/backDrops">Back Drops</Link>
         </h3>
         <h3>
-          <Link to="/make-it-breathtaking/smallDetails">Small Details</Link>
+          <Link to="/lighting">lighting</Link>
         </h3>
         <h3>
-          <Link to="/make-it-breathtaking/largeDetails">Large Details</Link>
+          <Link to="/chalkBoards">Chalkboards & Signs</Link>
         </h3>
         <h3>
-          <Link to="/make-it-breathtaking/linen">Linen</Link>
+          <Link to="/linen">Linen</Link>
         </h3>
         <h3>
-          <Link to="/make-it-breathtaking/poleTents">Pole Tents</Link>
+          <Link to="/floral">Floral</Link>
         </h3>
-        <h3>
-          <Link to="/make-it-breathtaking/termsCons">Terms and Conditions</Link>
-        </h3>
-        <h3>
-          <Link to="/make-it-breathtaking/contact">Contact us</Link>
+        <h3 className="altCTA">
+          <Link to="/contact">Contact us</Link>
         </h3>
       </nav>
     </header>
