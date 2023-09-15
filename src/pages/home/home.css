@@ -46,20 +46,21 @@
   transition: all 0.4s ease;
 }
 
-#tableTop {
-  background-image: url("../../assets/thumbnail_IMG_3542.jpg");
+#backDrops {
+  background-image: url("../../assets/IMG_3487.jpg");
 }
 #seating {
   background-image: url("../../assets/IMG_2506.jpg");
 }
-#smallDetails {
-  background-image: url("../../assets/thumbnail_IMG_3371.jpg");
-}
-#largeDetails {
+#lighting {
   background-image: url("../../assets/thumbnail_IMG_3508.jpg");
+}
+#chalkBoards {
+  background-image: url("../../assets/IMG_3352.jpg");
 }
 #linen {
   background-image: url("../../assets/thumbnail_IMG_3375.jpg");
 }
-#poleTents {
+#floral {
+  background-image: url("../../assets/thumbnail_IMG_3371.jpg");
 }

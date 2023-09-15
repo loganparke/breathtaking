@@ -25,23 +25,23 @@ function Home() {
           </h3>
         </Link>
         <Link className="noUnderline homeLink" to="/backDrops">
-          <h3 className="productLink" id="tableTop">
+          <h3 className="productLink" id="backDrops">
             <p>Back Drops</p>
           </h3>
         </Link>
         <Link className="noUnderline homeLink" to="/lighting">
-          <h3 className="productLink" id="smallDetails">
+          <h3 className="productLink" id="lighting">
             <p>Lighting</p>
           </h3>
         </Link>
         <Link className="noUnderline homeLink" to="/chalkBoards">
-          <h3 className="productLink" id="largeDetails">
+          <h3 className="productLink" id="chalkBoards">
             <p>Chalkboards & Signs</p>
           </h3>
         </Link>
         <Link className="noUnderline homeLink" to="/Linen">
           <h3 className="productLink" id="linen">
-            <p>Linen</p>
+            <p>Decor & Linen</p>
           </h3>
         </Link>
         <Link className="noUnderline homeLink" to="/floral">
