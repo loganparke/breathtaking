@@ -26,6 +26,9 @@ import decorTable3 from "./assets/IMG_3010.jpg";
 
 import rusticTable1 from "./assets/thumbnail_IMG_2998.jpg";
 
+import woodTable1 from "./assets/IMG_20230916_154047.jpg";
+import woodTable2 from "./assets/IMG_20230916_154042.jpg";
+
 import rose1 from "./assets/flower9.jpg";
 import hydrangeas1 from "./assets/flower13.jpg";
 
@@ -41,6 +44,10 @@ import chair2 from "./assets/IMG_2523.jpg";
 
 import chair3 from "./assets/IMG_2515.jpg";
 import chair4 from "./assets/IMG_2506.jpg";
+
+import floralDrop from "./assets/thumbnail_IMG_3482.jpg";
+
+import drapedDrop from "./assets/IMG_3487.jpg";
 
 function App() {
   return (
@@ -147,7 +154,37 @@ function App() {
               />
             }
           />
+          <Route
+            path="/tables/woodTable"
+            element={
+              <Product
+                name="Wood Side Table"
+                imgs={[woodTable1, woodTable2]}
+                description="Elevate the charm of your wedding with our Rustic Elegance Farmhouse Table, a true centerpiece that seamlessly blends comfort and sophistication. Crafted from aged oak, this table captures the essence of a quaint countryside farmhouse while adding a touch of refinement to your event. Its sturdy construction ensures a seamless gathering point for your guests, whether for dining or simply enjoying each other's company. The natural wood grain and weathered finish create an inviting atmosphere that complements any wedding theme, from rustic barn weddings to vintage-inspired celebrations. Embrace the beauty of simplicity and create lasting memories around this timeless piece."
+              />
+            }
+          />
           <Route path="/backDrops" element={<BackDrops />} />
+          <Route
+            path="/backDrops/floralBackdrop"
+            element={
+              <Product
+                name="Floral Backdrop"
+                imgs={[floralDrop]}
+                description="This ethereal creation features a cascade of delicate blooms, evoking the grace and beauty of a fairytale garden. The soft color palette and flowing arrangement create a sense of movement and enchantment that will transport your guests to a world of romance and magic. Whether used as a backdrop for your vows or as a stunning feature for your reception, this cascading backdrop invites guests to immerse themselves in the enchanting atmosphere of your wedding day."
+              />
+            }
+          />
+          <Route
+            path="/backDrops/DrapedBackdrop"
+            element={
+              <Product
+                name="Draped Backdrop"
+                imgs={[drapedDrop]}
+                description="This exquisite creation features layers of flowing fabric that cascade gracefully, creating a dreamy and romantic atmosphere. The soft, billowing texture provides a stunning backdrop for your ceremony, sweetheart table, or photo booth. Whether in an intimate garden setting or an opulent ballroom, this draped backdrop invites guests to step into a world of timeless elegance and enchantment."
+              />
+            }
+          />
         </Routes>
         <Footer />
       </div>

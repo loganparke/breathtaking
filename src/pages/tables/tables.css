@@ -41,6 +41,9 @@ h3 p {
 #rusticTable {
   background-image: url("../../assets/thumbnail_IMG_2998.jpg");
 }
+#woodTable {
+  background-image: url("../../assets/IMG_20230916_154047.jpg");
+}
 
 .tablesPageWrap {
   display: flex;
