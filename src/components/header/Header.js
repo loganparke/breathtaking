@@ -21,13 +21,13 @@ function Header() {
           <Link to="/backDrops">Back Drops</Link>
         </h3>
         <h3>
-          <Link to="/lighting">lighting</Link>
+          <Link to="/lighting">Lighting</Link>
         </h3>
         <h3>
           <Link to="/chalkBoards">Chalkboards & Signs</Link>
         </h3>
         <h3>
-          <Link to="/linen">Linen</Link>
+          <Link to="/linen">Linen & Decor</Link>
         </h3>
         <h3>
           <Link to="/floral">Floral</Link>

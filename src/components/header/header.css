@@ -11,6 +11,9 @@ h3 {
   margin-top: auto;
   margin-bottom: auto;
 }
+h3:hover{
+  border-bottom: 2px solid #7a4458;
+}
 #textLogo {
   padding: 25px;
   height: 90px;

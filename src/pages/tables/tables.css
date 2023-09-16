@@ -1,14 +1,23 @@
 .productLink {
-  width: 220px;
+  width: 300px;
   background-size: cover;
   text-align: center;
-  height: 120px;
+  height: 250px;
   display: flex;
+  margin: 15px;
   align-items: center;
   border-radius: 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+h3 p{
+font-weight: 800;
+  margin: auto;
+  font-size: 38px;
+
+  text-align: center;
+  text-shadow: 0px 0px 25px rgba(0, 0, 0, 1) !important;
 }
 .productLink p {
   margin: auto;
@@ -25,4 +34,12 @@
 }
 #farmHouseTable {
   background-image: url("../../assets/IMG_3154.jpg");
+}
+.tablesPageWrap{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  justify-content: center;
+  max-width: 1600px;
 }
