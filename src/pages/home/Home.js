@@ -8,7 +8,7 @@ function Home() {
     <div>
       <div className="heroImage">
         <h1>
-          welcome to <br></br>Make It Breathtaking
+          Welcome to <br></br>Make It Breathtaking
           <br></br>
           <span>Northern Utah wedding and event rentals.</span>
         </h1>
