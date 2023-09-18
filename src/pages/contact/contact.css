@@ -1,10 +1,10 @@
-.contactWrap{
+.contactWrap {
   width: 100vw;
   display: flex;
   padding: 40px;
   justify-content: center;
 }
-.contactItem{
+.contactItem {
   width: 190px;
   text-align: center;
   height: 190px;
@@ -19,17 +19,17 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 10px;
 }
-.contactItem img{
+.contactItem img {
   width: 55%;
   margin-bottom: -20px;
   margin-top: 20px;
 }
-.contactItem p{
+.contactItem p {
   width: 100%;
   font-weight: bold;
   font-size: 27px;
 }
-.head1{
+.head1 {
   margin: auto;
   text-align: center;
   padding-top: 20px;

@@ -1,3 +1,15 @@
-#vintageSofas{
+#vintageSofas {
   background-image: url("../../assets/IMG_2562.jpg");
+}
+
+#crossBackChair {
+  background-image: url("../../assets/headerImage.jpg");
+}
+
+#chiavariChair {
+  background-image: url("../../assets/IMG_2515.jpg");
+}
+
+#modernSofas {
+  background-image: url("../../assets/thumbnail_IMG_3513.jpg");
 }

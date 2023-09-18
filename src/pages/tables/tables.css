@@ -11,8 +11,8 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-h3 p{
-font-weight: 800;
+h3 p {
+  font-weight: 800;
   margin: auto;
   font-size: 38px;
 
@@ -35,11 +35,20 @@ font-weight: 800;
 #farmHouseTable {
   background-image: url("../../assets/IMG_3154.jpg");
 }
-.tablesPageWrap{
+#decorTable {
+  background-image: url("../../assets/IMG_3015.jpg");
+}
+#rusticTable {
+  background-image: url("../../assets/thumbnail_IMG_2998.jpg");
+}
+
+.tablesPageWrap {
   display: flex;
   flex-wrap: wrap;
   width: 90vw;
   margin: auto;
   justify-content: center;
   max-width: 1600px;
+  min-height: 75vh;
+  align-content: start;
 }
