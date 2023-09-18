@@ -4,29 +4,18 @@ import "./backDrops.css";
 function BackDrops() {
   return (
     <div className="tablesPageWrap">
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
+      <Link className="noUnderline tableLink" to="/backDrops/floralBackdrop">
         <h3 className="productLink" id="backdrop1">
-          <p>Floral <br></br>Backdrop</p>
+          <p>
+            Floral <br></br> Backdrop
+          </p>
         </h3>
       </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="backdrop1">
-        <p>Farm House <br></br> Table</p>
-        </h3>
-      </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="backdrop1">
-        <p>Farm House <br></br> Table</p>
-        </h3>
-      </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="backdrop1">
-        <p>Farm House <br></br> Table</p>
-        </h3>
-      </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="backdrop1">
-        <p>Farm House <br></br> Table</p>
+      <Link className="noUnderline tableLink" to="/backDrops/drapedBackdrop">
+        <h3 className="productLink" id="backdrop2">
+          <p>
+            Draped <br></br> Backdrop
+          </p>
         </h3>
       </Link>
     </div>

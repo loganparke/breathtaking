@@ -21,9 +21,24 @@
 }
 
 #roses {
-  background-image: url("../../assets/flower6.JPG");
+  background-image: url("../../assets/flower6.jpg");
 }
 
 #hydrangeas {
   background-image: url("../../assets/flower13.jpg");
+}
+#pampas {
+  background-image: url("../../assets/IMG_3171.jpg");
+}
+#garlands {
+  background-image: url("../../assets/IMG_2594.jpg");
+}
+#babysBreath {
+  background-image: url("../../assets/flower12.jpg");
+}
+#sprays {
+  background-image: url("../../assets/flower11.jpg");
+}
+#headCrowns {
+  background-image: url("../../assets/thumbnail_IMG_3364.jpg");
 }

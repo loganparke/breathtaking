@@ -25,17 +25,10 @@ function Tables() {
           </p>
         </h3>
       </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="farmHouseTable">
+      <Link className="noUnderline tableLink" to="/tables/woodTable">
+        <h3 className="productLink" id="woodTable">
           <p>
-            Farm House <br></br> Table
-          </p>
-        </h3>
-      </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="farmHouseTable">
-          <p>
-            Farm House <br></br> Table
+            Wood Side<br></br> Table
           </p>
         </h3>
       </Link>
