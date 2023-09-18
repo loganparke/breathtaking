@@ -32,6 +32,7 @@ import rose2 from "./assets/flower4.jpg";
 import rose3 from "./assets/flower5.jpg";
 import rose4 from "./assets/flower6.jpg";
 import rose5 from "./assets/flower7.jpg";
+import rose6 from "./assets/IMG_20230917_205459.jpg";
 import hydrangeas1 from "./assets/flower13.jpg";
 import pampas1 from "./assets/IMG_3171.jpg";
 import pampas2 from "./assets/pixelcut_.jpg";
@@ -40,9 +41,16 @@ import garland1 from "./assets/IMG_2594.jpg";
 import garland2 from "./assets/IMG_2590.jpg";
 import garland3 from "./assets/IMG_2592.jpg";
 import garland4 from "./assets/IMG_2587.jpg";
+import garland5 from "./assets/thumbnail_IMG_3521.jpg";
+import garland6 from "./assets/thumbnail_IMG_3527.jpg";
+import headCrown1 from "./assets/thumbnail_IMG_3364.jpg";
+import headCrown2 from "./assets/thumbnail_IMG_3371.jpg";
+import headCrown3 from "./assets/IMG_3046.jpg";
 import babys1 from "./assets/flower12.jpg";
 import babys2 from "./assets/IMG_20230917_191553.jpg";
 import babys3 from "./assets/IMG_20230917_191544.jpg";
+import spray1 from "./assets/flower11.jpg";
+import spray2 from "./assets/IMG_20230917_202814.jpg";
 
 import sofa1 from "./assets/IMG_2562.jpg";
 import sofa2 from "./assets/IMG_2564.jpg";
@@ -139,8 +147,18 @@ function App() {
             element={
               <Product
                 name="Roses"
-                imgs={[rose1, rose2, rose3, rose4, rose5]}
+                imgs={[rose1, rose2, rose3, rose4, rose5, rose6]}
                 description="Elevate your wedding decor with our beautiful rose collection. These exquisite blooms are more than just flowers; they're a testament to the timeless beauty of love. Each rose exudes a natural grace that effortlessly complements any wedding theme. From classic whites to blush pinks and deep reds, our curated selection offers a palette as diverse as your love story. Whether adorning your tables, accentuating your ceremony, or gracing your bridal bouquet, these roses speak the language of romance. Embrace the everlasting allure of our Rose Collection and let your wedding bloom in unparalleled beauty."
+              />
+            }
+          />
+          <Route
+            path="/floral/headCrowns"
+            element={
+              <Product
+                name="Floral Head Crowns"
+                imgs={[headCrown1, headCrown2, headCrown3]}
+                description="These crowns are intricately crafted with a selection of blooms, including roses, baby's breath, and greenery. The soft color palette and natural texture create a dreamy and romantic accessory for the bride or bridesmaids. Whether worn with loose waves or an elegant updo, these crowns invite you to step into a world of timeless beauty and whimsical romance."
               />
             }
           />
@@ -149,7 +167,14 @@ function App() {
             element={
               <Product
                 name="Garlands"
-                imgs={[garland1, garland2, garland3, garland4]}
+                imgs={[
+                  garland1,
+                  garland2,
+                  garland3,
+                  garland4,
+                  garland5,
+                  garland6,
+                ]}
                 description="This collection features an assortment of garlands crafted from a beautiful selection of greenery. The combination of textures and shades creates a dynamic and visually striking display, perfect for adding a little pop to your wedding. Whether used individually for a touch of refinement or grouped together for a dramatic effect, this ensemble invites guests to experience the timeless beauty and natural elegance of your event."
               />
             }
@@ -171,6 +196,16 @@ function App() {
                 name="Hydrangeas"
                 imgs={[hydrangeas1]}
                 description="Preserve the essence of your love story with our Timeless Charm Preserved Hydrangeas. These hydrangeas are a testament to enduring love, capturing the moment in a bloom that will last a lifetime. Each petal is carefully preserved to retain its natural beauty, texture, and color, allowing you to treasure it long after your wedding day. Choose from a range of classic and muted tones, creating an everlasting keepsake that resonates with your heart. Whether gracing your bridal bouquet or adorning your venue, these preserved hydrangeas add a touch of timeless romance to your celebration."
+              />
+            }
+          />
+          <Route
+            path="/floral/sprays"
+            element={
+              <Product
+                name="Sprays"
+                imgs={[spray1, spray2]}
+                description="Our two sprays consist of a beautiful Eucalyptus Branch and Italian Ruscus vine. Capture the essence of enduring beauty with our spray selection."
               />
             }
           />

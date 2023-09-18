@@ -34,17 +34,15 @@ function Floral() {
           <p>Baby's-breath</p>
         </h3>
       </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="chalk1">
-          <p>
-            Farm House <br></br> Table
-          </p>
+      <Link className="noUnderline tableLink" to="/floral/sprays">
+        <h3 className="productLink" id="sprays">
+          <p>Sprays</p>
         </h3>
       </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="chalk1">
+      <Link className="noUnderline tableLink" to="/floral/headCrowns">
+        <h3 className="productLink" id="headCrowns">
           <p>
-            Farm House <br></br> Table
+            Floral<br></br> Head Crowns
           </p>
         </h3>
       </Link>
