@@ -19,18 +19,30 @@ import Product from "./components/product/Product";
 import farmHouseTable1 from "./assets/IMG_3154.jpg";
 import farmHouseTable2 from "./assets/IMG_3138.jpg";
 import farmHouseTable3 from "./assets/thumbnail_IMG_3078.jpg";
-
 import decorTable1 from "./assets/IMG_3015.jpg";
 import decorTable2 from "./assets/IMG_3013.jpg";
 import decorTable3 from "./assets/IMG_3010.jpg";
-
 import rusticTable1 from "./assets/thumbnail_IMG_2998.jpg";
 
 import woodTable1 from "./assets/IMG_20230916_154047.jpg";
 import woodTable2 from "./assets/IMG_20230916_154042.jpg";
 
 import rose1 from "./assets/flower9.jpg";
+import rose2 from "./assets/flower4.jpg";
+import rose3 from "./assets/flower5.jpg";
+import rose4 from "./assets/flower6.jpg";
+import rose5 from "./assets/flower7.jpg";
 import hydrangeas1 from "./assets/flower13.jpg";
+import pampas1 from "./assets/IMG_3171.jpg";
+import pampas2 from "./assets/pixelcut_.jpg";
+import pampas3 from "./assets/IMG_3183.jpg";
+import garland1 from "./assets/IMG_2594.jpg";
+import garland2 from "./assets/IMG_2590.jpg";
+import garland3 from "./assets/IMG_2592.jpg";
+import garland4 from "./assets/IMG_2587.jpg";
+import babys1 from "./assets/flower12.jpg";
+import babys2 from "./assets/IMG_20230917_191553.jpg";
+import babys3 from "./assets/IMG_20230917_191544.jpg";
 
 import sofa1 from "./assets/IMG_2562.jpg";
 import sofa2 from "./assets/IMG_2564.jpg";
@@ -38,15 +50,27 @@ import sofa3 from "./assets/IMG_2565.jpg";
 import sofa4 from "./assets/IMG_2612.jpg";
 
 import modernSofa1 from "./assets/thumbnail_IMG_3513.jpg";
+import modernSofa2 from "./assets/IMG_20230917_174723.jpg";
 
 import chair1 from "./assets/headerImage.jpg";
 import chair2 from "./assets/IMG_2523.jpg";
-
 import chair3 from "./assets/IMG_2515.jpg";
 import chair4 from "./assets/IMG_2506.jpg";
 
-import floralDrop from "./assets/thumbnail_IMG_3482.jpg";
+import glassSign1 from "./assets/IMG_3262.jpg";
+import glassSign2 from "./assets/IMG_3270.jpg";
+// import glassSign3 from "./assets/IMG_3274.jpg";
+import meshSign1 from "./assets/IMG_3352.jpg";
+import meshSign2 from "./assets/IMG_3349.jpg";
+import meshSign3 from "./assets/IMG_3344.jpg";
+import woodSign1 from "./assets/IMG_3334.jpg";
+import woodSign2 from "./assets/IMG_3337.jpg";
+import chalkSign1 from "./assets/IMG_3409.jpg";
+import chalkSign2 from "./assets/thumbnail_IMG_3416.jpg";
+import easel1 from "./assets/IMG_3306.jpg";
+import easel2 from "./assets/IMG_3302.jpg";
 
+import floralDrop from "./assets/thumbnail_IMG_3482.jpg";
 import drapedDrop from "./assets/IMG_3487.jpg";
 
 function App() {
@@ -58,15 +82,85 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/chalkBoards" element={<ChalkBoards />} />
-          <Route path="/linen" element={<Linen />} />
+          <Route
+            path="/chalkBoards/glassSigns"
+            element={
+              <Product
+                name="Glass Signs"
+                imgs={[glassSign1, glassSign2]}
+                description=" This sign features a sleek, clear glass cabinet door that provides a clean and minimalist backdrop for your chosen message. The simplicity of the design allows it to seamlessly complement any wedding theme, while the modern font and layout add a touch of contemporary elegance. Whether used for directional signs or love notes, this sign brings a sense of modern sophistication to your celebration."
+              />
+            }
+          />
+          <Route
+            path="/chalkBoards/meshSigns"
+            element={
+              <Product
+                name="Mesh Signs"
+                imgs={[meshSign1, meshSign3, meshSign2]}
+                description=" These unique signs give a rustic and homey feeling to any wedding. The slightly worn look serves as a perfect canvas for your message, evoking a sense of free-spirited beauty. Whether used to frame your vows or to provide a backdrop for cherished photos, this creation invites guests to step into a world of artistic expression and natural elegance."
+              />
+            }
+          />
+          <Route
+            path="/chalkBoards/woodSigns"
+            element={
+              <Product
+                name="Wooden Signs"
+                imgs={[woodSign1, woodSign2]}
+                description=" These unique signs give a rustic and home feeling to any wedding. The slightly worn look serves as a perfect canvas for your message, evoking a sense of free-spirited beauty. Whether used to frame your vows or to provide a backdrop for cherished photos, this creation invites guests to step into a world of artistic expression and natural elegance."
+              />
+            }
+          />
+          <Route
+            path="/chalkBoards/chalkboardSigns"
+            element={
+              <Product
+                name="chalkboards"
+                imgs={[chalkSign1, chalkSign2]}
+                description="Add a touch of rustic charm to your wedding with our rustic Wooden frame chalkboards. The generous writing surface of our chalkboards allows for creative displays, from welcome messages to seating charts and love notes. Whether placed at the entrance of your venue or as a charming addition to your reception area, these chalkboards invite guests to engage and interact with your wedding celebration."
+              />
+            }
+          />
+          <Route
+            path="/chalkBoards/easels"
+            element={
+              <Product
+                name="Easel Sign Stands"
+                imgs={[easel1, easel2]}
+                description="Add a touch of natural charm to your wedding with our wooden easels. Crafted from sturdy wood, these easels exude warmth and character. The natural finish allows for a seamless blend with a variety of wedding themes, from countryside rustic to boho chic. Whether used to display seating charts, welcome signs, or custom messages, these easels provide a versatile and stylish solution for showcasing important details at your event."
+              />
+            }
+          />
+
           <Route path="/floral" element={<Floral />} />
           <Route
             path="/floral/roses"
             element={
               <Product
                 name="Roses"
-                imgs={[rose1]}
+                imgs={[rose1, rose2, rose3, rose4, rose5]}
                 description="Elevate your wedding decor with our beautiful rose collection. These exquisite blooms are more than just flowers; they're a testament to the timeless beauty of love. Each rose exudes a natural grace that effortlessly complements any wedding theme. From classic whites to blush pinks and deep reds, our curated selection offers a palette as diverse as your love story. Whether adorning your tables, accentuating your ceremony, or gracing your bridal bouquet, these roses speak the language of romance. Embrace the everlasting allure of our Rose Collection and let your wedding bloom in unparalleled beauty."
+              />
+            }
+          />
+          <Route
+            path="/floral/garlands"
+            element={
+              <Product
+                name="Garlands"
+                imgs={[garland1, garland2, garland3, garland4]}
+                description="This collection features an assortment of garlands crafted from a beautiful selection of greenery. The combination of textures and shades creates a dynamic and visually striking display, perfect for adding a little pop to your wedding. Whether used individually for a touch of refinement or grouped together for a dramatic effect, this ensemble invites guests to experience the timeless beauty and natural elegance of your event."
+              />
+            }
+          />
+          <Route
+            path="/floral/babysBreath"
+            element={
+              <Product
+                name="Baby's-Breath"
+                imgs={[babys1, babys2, babys3]}
+                description="Capture the charm of a countryside celebration with our Rustic Baby's Breath Cluster. This cluster features a gathering of baby's breath stems, creating a warm and inviting display. The beautiful tones and organic composition make it a perfect fit for rustic or barn weddings. Whether used in mason jar centerpieces, as part of a bouquet, or to adorn ceremony spaces, this cluster invites guests to experience the cozy and welcoming atmosphere of a rustic celebration."
               />
             }
           />
@@ -80,7 +174,16 @@ function App() {
               />
             }
           />
-
+          <Route
+            path="/floral/pampasGrass"
+            element={
+              <Product
+                name="Pampas Grass"
+                imgs={[pampas1, pampas3, pampas2]}
+                description="Infuse your wedding with a touch of charm with our pampas grass centerpiece. This arrangement features a lush bundle of pampas grass plumes, creating a stunning and textural focal point. The soft, neutral tones and feathery texture add a sense of relaxed elegance to your event. Whether placed in a vintage-inspired setting or as a statement piece in a modern venue, this centerpiece invites guests to experience the natural beauty and free-spirited vibe of celebration."
+              />
+            }
+          />
           <Route path="/seating" element={<Seating />} />
           <Route
             path="/seating/crossBackChair"
@@ -106,9 +209,9 @@ function App() {
             path="/seating/modernSofas"
             element={
               <Product
-                name="modern Sofas"
-                imgs={[modernSofa1]}
-                description=" This sofa is a statement piece that exudes opulence and modern charm. The rich, plush velvet upholstery in deep jewel tone adds a pop of color and texture, creating a striking focal point for your event. Its sleek metal legs and clean lines offer a contemporary edge, making it a perfect choice for couples seeking to create a stylish and vibrant atmosphere. Whether placed in a chic urban venue or a modern industrial space, this sofa invites guests to experience the height of metropolitan sophistication."
+                name="Modern Sofas"
+                imgs={[modernSofa1, modernSofa2]}
+                description=" These sofas are a statement piece that exudes opulence and modern charm. The rich and bright colors create a striking focal point for your event, making it a perfect choice for couples seeking to create a stylish and vibrant atmosphere. Whether placed in a chic urban venue or a modern industrial space, these sofas invite guests to experience the height of metropolitan sophistication."
               />
             }
           />
@@ -122,7 +225,7 @@ function App() {
               />
             }
           />
-          <Route path="/lighting" element={<Lighting />} />
+
           <Route path="/tables" element={<Tables />} />
           <Route
             path="/tables/decorTable"
@@ -185,6 +288,8 @@ function App() {
               />
             }
           />
+          <Route path="/lighting" element={<Lighting />} />
+          <Route path="/linen" element={<Linen />} />
         </Routes>
         <Footer />
       </div>

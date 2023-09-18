@@ -32,13 +32,6 @@ function Tables() {
           </p>
         </h3>
       </Link>
-      <Link className="noUnderline tableLink" to="/tables/farmHouse">
-        <h3 className="productLink" id="farmHouseTable">
-          <p>
-            Farm House <br></br> Table
-          </p>
-        </h3>
-      </Link>
     </div>
   );
 }
