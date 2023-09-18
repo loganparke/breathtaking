@@ -1,12 +1,36 @@
 import React from "react";
+import { useRef } from "react"
 import "./header.css";
 import { Link } from "react-router-dom";
 import textlogo from "../../assets/textLogo.svg";
 
 function Header() {
+
+  const burger = useRef();
+  const nawWrap = useRef();
+  const handleNavOpen = () => {
+    console.log(burger.current.classList)
+    if(nawWrap.current.classList.contains('openNav')){
+      console.log('open')
+      nawWrap.current.classList.remove('openNav')
+    } else {
+      
+      nawWrap.current.classList.add('openNav')
+      console.log('close')
+    }
+  }
+
   return (
     <header>
-      <nav className="navWrap">
+      <div className="mobileNav">
+      <img id="mobileLogo" alt="textLogo" src={textlogo} />
+        <div ref={burger} onClick={handleNavOpen} className="burger">
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+      <nav ref={nawWrap} className="navWrap">
         <img id="textLogo" alt="textLogo" src={textlogo} />
         <h3>
           <Link to="/">Home</Link>

@@ -28,3 +28,15 @@
   border-left: #f1ece3 1px solid;
   border-right: #f1ece3 1px solid;
 }
+
+
+@media only screen and (max-width: 813px)  {
+  .footer section{
+    flex-wrap: wrap;
+  }
+  .footer section a{
+    width: 100%;
+    border: 0px!important;
+    padding: 5px;
+  }
+}
