@@ -7,7 +7,7 @@ function Header() {
   return (
     <header>
       <nav className="navWrap">
-        <img id="textLogo" src={textlogo} />
+        <img id="textLogo" alt="textLogo" src={textlogo} />
         <h3>
           <Link to="/">Home</Link>
         </h3>

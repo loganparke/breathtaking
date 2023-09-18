@@ -16,7 +16,7 @@ function Product(props) {
     <div className="productWrap">
       <section className="imageSection">
         <div className="fitBigImg">
-          <img ref={bigImg} src={props.imgs[0]} />
+          <img ref={bigImg} alt="bigImg" src={props.imgs[0]} />
         </div>
       </section>
       <section className="textSection">
@@ -28,7 +28,7 @@ function Product(props) {
           {images.map(function (image, i) {
             return (
               <div className="fitImg">
-                <img onClick={changeImage} src={image} key={i} />
+                <img onClick={changeImage} alt={i} src={image} key={i} />
               </div>
             );
           })}
