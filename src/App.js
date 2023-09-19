@@ -98,6 +98,13 @@ import servingPlater1 from "./assets/thumbnail_IMG_3414.jpg";
 import servingPlater2 from "./assets/thumbnail_IMG_3415.jpg";
 import servingPlater3 from "./assets/thumbnail_IMG_3417.jpg";
 
+import candle1 from "./assets/thumbnail_IMG_3508.jpg";
+import candle2 from "./assets/thumbnail_IMG_2597.jpg";
+import candle3 from "./assets/thumbnail_IMG_2595.jpg";
+import candle4 from "./assets/thumbnail_IMG_2591.jpg";
+import candle5 from "./assets/IMG_2615.jpg";
+import loveLight1 from "./assets/thumbnail_IMG_2589.jpg";
+
 function App() {
   return (
     <Router>
@@ -412,6 +419,26 @@ function App() {
             }
           />
           <Route path="/lighting" element={<Lighting />} />
+          <Route
+            path="/lighting/candles"
+            element={
+              <Product
+                name="Candles"
+                imgs={[candle1, candle5, candle3, candle4, candle2]}
+                description="These candles are perfect for creating an elegant and refined atmosphere. Available in a variety of colors, they can be paired with candle holders to complement your wedding theme."
+              />
+            }
+          />
+          <Route
+            path="/lighting/loveLight"
+            element={
+              <Product
+                name="Love Light"
+                imgs={[loveLight1]}
+                description="Elevate the romantic ambiance of your wedding with our Classic Marquee Love Sign. This sign features the word Love in bold, illuminated letters adorned with delicate lightbulbs. The warm glow adds a touch of magic to your decor. Whether placed at the entrance, behind the sweetheart table, or as a backdrop for photos, this sign invites guests to bask in the enchanting atmosphere of your event."
+              />
+            }
+          />
         </Routes>
         <Footer />
       </div>
