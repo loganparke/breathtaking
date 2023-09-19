@@ -81,6 +81,23 @@ import easel2 from "./assets/IMG_3302.jpg";
 import floralDrop from "./assets/thumbnail_IMG_3482.jpg";
 import drapedDrop from "./assets/IMG_3487.jpg";
 
+import candleStand from "./assets/IMG_2593.jpg";
+import linen1 from "./assets/thumbnail_IMG_3453.jpg";
+import linen2 from "./assets/thumbnail_IMG_3375.jpg";
+import linen3 from "./assets/thumbnail_IMG_3460.jpg";
+import linen4 from "./assets/thumbnail_IMG_3466.jpg";
+import linen5 from "./assets/thumbnail_IMG_3473.jpg";
+import vase1 from "./assets/thumbnail_IMG_3538.jpg";
+import vase2 from "./assets/thumbnail_IMG_3542.jpg";
+import pouf1 from "./assets/IMG_3393.jpg";
+import pouf2 from "./assets/IMG_20230918_182355.jpg";
+import cardBox1 from "./assets/thumbnail_IMG_3495.jpg";
+import largeLantern1 from "./assets/IMG_3398.jpg";
+import largeLantern2 from "./assets/IMG_3400.jpg";
+import servingPlater1 from "./assets/thumbnail_IMG_3414.jpg";
+import servingPlater2 from "./assets/thumbnail_IMG_3415.jpg";
+import servingPlater3 from "./assets/thumbnail_IMG_3417.jpg";
+
 function App() {
   return (
     <Router>
@@ -323,8 +340,78 @@ function App() {
               />
             }
           />
-          <Route path="/lighting" element={<Lighting />} />
           <Route path="/linen" element={<Linen />} />
+          <Route
+            path="/linen/candleStand"
+            element={
+              <Product
+                name="Candle Stand"
+                imgs={[candleStand]}
+                description="This stand boasts a contemporary design with clean lines and a matte black finish. The understated sophistication of this piece makes it a versatile choice for a range of wedding themes. Whether placed as statement pieces or used to accentuate minimalist decor, this candle stand invites guests to experience the sleek and refined ambiance of a modern celebration."
+              />
+            }
+          />
+          <Route
+            path="/linen/linens"
+            element={
+              <Product
+                name="Linens"
+                imgs={[linen1, linen2, linen3, linen4, linen5]}
+                description="Elevate the elegance of your wedding with our classic linens. The smooth, lustrous surface adds a touch of opulence to your tables, setting the stage for a sophisticated celebration. Whether used for a formal sit-down dinner or a chic cocktail reception, these linens invite guests to indulge in the refined ambiance of your event."
+              />
+            }
+          />
+          <Route
+            path="/linen/vases"
+            element={
+              <Product
+                name="Vases"
+                imgs={[vase1, vase2]}
+                description="Whether used as a centerpiece or to accentuate ceremony spaces, these vases invite guests to bask in the luxurious ambiance of your event."
+              />
+            }
+          />
+          <Route
+            path="/linen/poufs"
+            element={
+              <Product
+                name="Poufs"
+                imgs={[pouf1, pouf2]}
+                description="These poufs features intricate macramé detailing in natural fibers, creating a free-spirited and eclectic seating option. The textured design adds a sense of artisanal beauty to your decor. Whether used in outdoor lounge areas or as part of a relaxed seating arrangement, this pouf invites guests to experience the carefree and artistic ambiance of your celebration."
+              />
+            }
+          />
+          <Route
+            path="/linen/cardBox"
+            element={
+              <Product
+                name="Card Box"
+                imgs={[cardBox1]}
+                description="This box showcases a delicate lace overlay on a white wooden frame with wire panels. The combination of lace and wire creates a dreamy and ethereal atmosphere. The design allows guests to deposit their cards while adding a touch of elegance to your decor. Whether placed on a vintage-inspired table or as part of a shabby chic setting, this card box invites guests to step into a world of timeless beauty and sentimentality."
+              />
+            }
+          />
+          <Route
+            path="/linen/largeLanterns"
+            element={
+              <Product
+                name="Large Lanters"
+                imgs={[largeLantern1, largeLantern2]}
+                description="These lanterns feature intricate metalwork in a rich finish, exuding a sense of vintage elegance. The delicate details and warm hue create a cozy and inviting atmosphere. Whether used as centerpiece accents or to line pathways, this lantern invites guests to step into a world of old-world charm and romance."
+              />
+            }
+          />
+          <Route
+            path="/linen/servingPlaters"
+            element={
+              <Product
+                name="Serving Platers"
+                imgs={[servingPlater1, servingPlater2, servingPlater3]}
+                description="These lanterns feature intricate metalwork in a rich finish, exuding a sense of vintage elegance. The delicate details and warm hue create a cozy and inviting atmosphere. Whether used as centerpiece accents or to line pathways, this lantern invites guests to step into a world of old-world charm and romance."
+              />
+            }
+          />
+          <Route path="/lighting" element={<Lighting />} />
         </Routes>
         <Footer />
       </div>
